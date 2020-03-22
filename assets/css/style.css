@@ -1,5 +1,4 @@
 html {
-    /* border-box box model allows us to add padding and border to our elements without increasing their size */
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 600;
@@ -63,6 +62,7 @@ header {
     flex-wrap: wrap;
 }
 
+/* footer style*/
 footer {
     display: flex;
     background: #30343E;
@@ -76,7 +76,7 @@ body {
     margin: 0;
 }
 
-/* Hero Style Start */
+/* hero style*/
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -100,6 +100,7 @@ body {
     margin-right: 10px;
 }
 
+/* flexify */
 .flex-row {
     flex: 1;
     display: flex;
@@ -170,15 +171,7 @@ body {
     color: #30343E;
 }
   
-footer {
-    width: 100%;
-    padding: 40px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    background-color: #30343E;
-}
-
+/* work grid */
 .big-column {
     display: flex;
     flex-direction: column;
