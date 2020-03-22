@@ -58,7 +58,7 @@ header {
     display: flex;
     background-color: #30343E;
     padding: 10px 15px;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
